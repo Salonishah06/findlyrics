@@ -4,7 +4,8 @@ import { Consumer } from '../context';
   render() {
     return (
         <Consumer>
-        {value => {
+        {
+            value => {
             console.log(value);
             return<h1>Tracks</h1>
         }}
